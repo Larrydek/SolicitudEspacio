@@ -1,0 +1,41 @@
+  .container {
+        max-width: 550px;
+        margin: 10px auto;
+        padding: 90px auto;
+        background-color: lightblue;
+        font-family: "Comic Sans MS", cursive, sans-serif; 
+        border-radius: 10px;
+
+    }
+    input {
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        margin: 15px 15px 15px 15px;
+
+
+
+    }
+    h1 {
+        text-align: center;
+        font-size: 80px;
+        color: red;
+        flex-direction: column;
+    }
+    p {
+        text-align: center;
+        display: flex;
+        font-size: 25px;
+        color: white;
+        flex-direction: column;
+    }
+    #survey-form {
+        display: flex;
+        flex-direction: column;
+    }
+    #name {
+        flex-direction: column;
+    }
+    body {
+        background-color: #252850
+    }

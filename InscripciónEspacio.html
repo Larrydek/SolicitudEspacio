@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directo al espacio</title>
+    <link rel="stylesheet" href="espacio.css">
+    <h1 id="title">Inscripción para misión al espacio</h1>
+</head>
+<body>
+    <p id="description"> Rellene los formularios para considerar su petición a la misión de reparación del Perseverance</p>
+    <div class="container">
+        <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        
+        <input id="name" placeholder="tu nombrecito aqui bb" type="text"required>
+        <label for="email" id="email-label">e-mail</label>
+        
+        <input id="email" placeholder="tu mailsito aqui bb" type="email"required>
+        <label for="number" id="number-label">Age</label>
+        
+        <input id="number" placeholder="tu numerito bb" type="number" min="16" max="30">
+            <label for="dropdown" id="dropdown-label">SEXO
+                <select id="dropdown">
+                <option value="Macho">MACHO</option>
+                <option value="Hembra">HEMBRA</option>
+                <option value="Si">SI</option>
+            </select>
+            
+            
+            <input type="radio" name="estadía" id="año" value="12 meses">
+        <label for="año">12 meses</label>
+        
+            <input type="radio" name="estadía" id="3 años" value="36 meses">
+           <label for="3 años">36 meses</label>
+        
+            <input type="radio" name="estadía" id="para siempre" value="ESTADIA ETERNA">
+            <label for="para siempre">ESTADIA ETERNA</label>
+
+          <input type="checkbox" name="condiciones" id="checkbox-condicion1" value="bienestar físico">
+          <label for="condicion1">bienestar físico</label> 
+        
+         <input type="checkbox" name="condiciones" id="checkbox-condicion2" value="bienestar mental">
+         <label for="condicion2">bienestar mental</label> 
+        
+         <input type="checkbox" name="condiciones" id="checkbox-condicion3" value="usted no es de izquierda">
+        <label for="condicion3">bienestar espiritual</label>
+        
+        <textarea>Preparese para la mision</textarea>
+        
+        <button type="submit" id="submit">AD ASTRA</button>
+
+        </form>
+    </div>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
