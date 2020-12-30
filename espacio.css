@@ -1,20 +1,18 @@
-  .container {
-        max-width: 550px;
+ .container {
+        max-width: 650px;
+        height: 700px;
         margin: 10px auto;
-        padding: 90px auto;
+        padding: 1.7em;
         background-color: lightblue;
+        opacity: 90%;
         font-family: "Comic Sans MS", cursive, sans-serif; 
         border-radius: 10px;
-
-    }
-    input {
-        display: flex;
-        flex-direction: column;
-        border-radius: 20px;
-        margin: 15px 15px 15px 15px;
-
-
-
+}
+      #name, #email, #number, #dropdown {
+        margin: 5px 20px 30px 20px;
+}
+    input, #dropdown, #submit, textarea {
+        border-radius: 15px;
     }
     h1 {
         text-align: center;
@@ -37,5 +35,9 @@
         flex-direction: column;
     }
     body {
-        background-color: #252850
+        background-image: url(https://i.redd.it/yyb8dhdfzmm01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
+    
